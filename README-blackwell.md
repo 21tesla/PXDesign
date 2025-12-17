@@ -12,3 +12,19 @@ This repository contains an automated installer to run **PXDesign** on NVIDIA Bl
 2. Run the installer:
    ```bash
    bash install_blackwell.sh
+
+## Environment
+conda activate pxdesign_bw
+
+## Test Command
+
+cd ~/pxdesign_blackwell_work/PXDesign
+
+pxdesign pipeline \
+    --preset extended \
+    -i ./examples/PDL1_quick_start.yaml \
+    -o ./output_folder \
+    --N_sample 10 \
+    --dtype bf16 \
+    --use_fast_ln False \
+    --use_deepspeed_evo_attention False
