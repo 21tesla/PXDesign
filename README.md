@@ -15,9 +15,10 @@ This repository contains an automated installer to run **PXDesign** on NVIDIA Bl
 
 ## Environment
    ```bash
-   conda activate pxdesign
 
-cd ~/pxdesign/PXDesign
+cd [your PXDesign directory]
+
+conda activate pxdesign
 
 pxdesign pipeline \
     --preset extended \
