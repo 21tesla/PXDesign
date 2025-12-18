@@ -6,10 +6,10 @@
 set -e  # Exit on error
 
 # --- Configuration ---
-ENV_NAME="pxdesign_bw"
+ENV_NAME="pxdesign"
 PYTHON_VER="3.12"
 CUDA_VER="cu128"
-WORK_DIR="$HOME/pxdesign_blackwell_work"
+WORK_DIR="$HOME/PXDesign"
 
 echo ">>> Starting Blackwell Installation Protocol..."
 mkdir -p $WORK_DIR
