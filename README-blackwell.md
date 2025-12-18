@@ -14,15 +14,12 @@ This repository contains an automated installer to run **PXDesign** on NVIDIA Bl
    bash install_blackwell.sh
 
 ## Environment
-```conda activate pxdesign_bw
+   ```bash
+   conda activate pxdesign_bw
 
-## Working Directory
+cd ~/pxdesign_blackwell_work/PXDesign
 
-```cd ~/pxdesign_blackwell_work/PXDesign
-
-## Test Command
-
-```pxdesign pipeline \
+pxdesign pipeline \
     --preset extended \
     -i ./examples/PDL1_quick_start.yaml \
     -o ./output_folder \
