@@ -1,11 +1,11 @@
-# PXDesign for NVIDIA Blackwell (RTX 6000 / B200)
+# PXDesign for NVIDIA Blackwell
 
 This repository contains an automated installer to run **PXDesign** on NVIDIA Blackwell architecture (sm_120), which requires PyTorch Nightly, CUDA 12.8+, and JAX updates that break the standard installation.
 
 ## Prerequisites
-* Linux
 * CUDA 12.8+ Driver
 * Conda
+* Tested on Ubuntu 24.04 + Blackwell RTX 6000 (driver 580.105.08 / cuda 13.0)
 
 ## Installation
 1. Clone this repo.
@@ -16,7 +16,7 @@ This repository contains an automated installer to run **PXDesign** on NVIDIA Bl
 ## Environment
    ```bash
 
-cd [your PXDesign directory]
+cd $HOME/PXDesign
 
 conda activate pxdesign
 
